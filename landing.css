@@ -143,9 +143,9 @@ a {
   place-self: center;
 }
 
-#dft {
-  grid-column: 1/1;
-  grid-row: 4/4;
+#dtf {
+  grid-column: 1/2;
+  grid-row: 5/5;
   color: #e637a7;
   font-family: "Druk Bold";
   text-transform: uppercase;
