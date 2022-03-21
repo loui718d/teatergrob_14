@@ -79,3 +79,20 @@ a {
 #nav_desktop {
   display: none;
 }
+
+/* fonts */
+
+@font-face {
+  font-family: "Druk Bold";
+  src: url(fonte/Druk\ Bold\ Regular.woff2);
+}
+
+@font-face {
+  font-family: "Druk Text";
+  src: url(fonte/Druk\ Text\ Wide\ Bold\ Italic.woff2);
+}
+
+@font-face {
+  font-family: "Druk Wide";
+  src: url(fonte/Druk\ Wide\ Bold.woff2);
+}
