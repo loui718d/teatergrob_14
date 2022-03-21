@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="165" viewBox="0 0 165 165">
+  <defs>
+    <clipPath id="clip-Artboard_3">
+      <rect width="165" height="165"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <g id="Group_22" data-name="Group 22">
+      <text id="Køb_billet" data-name="Køb billet" transform="translate(31.663 95)" fill="#f9b233" font-size="40" font-family="Druk-Bold, Druk" font-weight="700"><tspan x="0" y="0">Køb billet</tspan></text>
+      <g id="Path_38026" data-name="Path 38026" transform="translate(1.663 46)" fill="none">
+        <path d="M0,0H161.674L145.686,38.239,161.674,73H0L13.977,38.239Z" stroke="none"/>
+        <path d="M 2.86041259765625 2 L 16.11845397949219 38.27334594726562 L 2.95977783203125 71 L 158.5525054931641 71 L 143.5017395019531 38.27750015258789 L 158.6698303222656 2 L 2.86041259765625 2 M 0 0 L 161.673828125 0 L 145.685546875 38.23919677734375 L 161.673828125 73 L 0 73 L 13.9765625 38.23919677734375 L 0 0 Z" stroke="none" fill="#f9b233"/>
+      </g>
+    </g>
+  </g>
+</svg>

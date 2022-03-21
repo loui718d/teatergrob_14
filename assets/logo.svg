@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+  <defs>
+    <clipPath id="clip-Artboard_10">
+      <rect width="125" height="125"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_10" data-name="Artboard – 10" clip-path="url(#clip-Artboard_10)">
+    <g id="Group_32" data-name="Group 32" transform="translate(-49.835 -50.761)">
+      <path id="Path_38032" data-name="Path 38032" d="M0,0H66.534" transform="translate(105.546 178.669) rotate(-84)" fill="none" stroke="#efb44f" stroke-width="4"/>
+      <text id="G" transform="translate(55.809 104.292) rotate(7)" fill="#164aa8" font-size="50" font-family="DrukWide-Bold, Druk Wide Bold" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">G</tspan></text>
+      <text id="R" transform="translate(112 111.326) rotate(7)" fill="#f9b233" font-size="55" font-family="DrukWide-Bold, Druk Wide Bold" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">R</tspan></text>
+      <text id="O" transform="matrix(0.998, -0.07, 0.07, 0.998, 62.512, 148.586)" fill="#f9b233" font-size="48" font-family="DrukWide-Bold, Druk Wide Bold" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">O</tspan></text>
+      <text id="B" transform="translate(108.443 145.863) rotate(6)" fill="#e637a7" font-size="44" font-family="DrukWide-Bold, Druk Wide Bold" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">B</tspan></text>
+      <path id="Path_38034" data-name="Path 38034" d="M0,0H65.133" transform="translate(112.5 112.5) rotate(-83)" fill="none" stroke="#d44aa3" stroke-width="4"/>
+      <path id="Path_38033" data-name="Path 38033" d="M0,0H130.81" transform="matrix(0.995, 0.105, -0.105, 0.995, 47.286, 105.646)" fill="#0048ae" stroke="#164aa8" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
