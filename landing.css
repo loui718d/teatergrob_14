@@ -143,7 +143,7 @@ a {
   place-self: center;
 }
 
-#dtf {
+/* #dtf {
   grid-column: 1/2;
   grid-row: 5/5;
   color: #e637a7;
@@ -152,7 +152,8 @@ a {
   font-size: 80px;
   letter-spacing: 20px;
   place-self: center;
-}
+} */
+
 /* header/nav menu 600 */
 @media (min-width: 600px) {
   #mySidepanel {
