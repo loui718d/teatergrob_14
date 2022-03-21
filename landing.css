@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background: #000000;
+  background: transparent;
   position: sticky;
   top: 0;
 }
@@ -38,7 +38,7 @@ a {
 }
 
 #lukmenu_knap img {
-  width: 70%;
+  width: 55%;
 }
 
 #åbenmenu_knap {
@@ -47,7 +47,7 @@ a {
 }
 
 #åbenmenu_knap img {
-  width: 70%;
+  width: 55%;
 }
 
 .sidepanel {
