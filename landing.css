@@ -37,17 +37,23 @@ a {
   grid-row: 1/1;
 }
 
+#lukmenu_knap img {
+  width: 70%;
+}
+
 #åbenmenu_knap {
   grid-column: 1/1;
   grid-row: 1/1;
+}
+
+#åbenmenu_knap img {
+  width: 70%;
 }
 
 .sidepanel {
   height: 925px;
   position: fixed;
   z-index: 1;
-  top: 0px;
-  left: 0;
   background-color: #0048ae;
   overflow-x: hidden;
   padding-top: 160px;
@@ -81,7 +87,7 @@ a {
 .openbtn {
   cursor: pointer;
   place-self: start start;
-  margin: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 20px;
   border: none;
   background: transparent;
 }
