@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_10" data-name="Group 10" transform="translate(-367.527 -936.195)">
+      <path id="Path_209" data-name="Path 209" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(368 936)" fill="#f9b233"/>
+      <g id="Menu" transform="translate(393 963)">
+        <path id="Menu-2" data-name="Menu" d="M0,46V39.427H31.252V46ZM0,26.286V19.714H50v6.573ZM0,6.573V0H50V6.573Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
