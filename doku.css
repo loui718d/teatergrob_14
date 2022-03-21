@@ -7,3 +7,68 @@
 body {
   background-color: #000000;
 }
+
+/* fonts */
+
+@font-face {
+  font-family: "Druk Bold";
+  src: url(fonte/Druk\ Bold\ Regular.woff2);
+}
+
+@font-face {
+  font-family: "Druk Text";
+  src: url(fonte/Druk\ Text\ Wide\ Bold\ Italic.woff2);
+}
+
+@font-face {
+  font-family: "Druk Wide";
+  src: url(fonte/Druk\ Wide\ Bold.woff2);
+}
+
+/* overskrifter */
+
+h1 {
+  font-family: "Druk Wide";
+  color: #e637a7;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Druk Wide";
+  color: #f9b233;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+/* lykkehjul */
+
+/* #hjul {
+  position: absolute;
+  width: 50%;
+  aspect-ratio: 152/152;
+  top: 58%;
+  left: 90.16%;
+  background-image: url(assets/hjul.svg);
+  background-size: cover;
+} */
+
+#hjul {
+  max-width: 700px;
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1665deg);
+  }
+}
