@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background: #e2ceb5;
+  background: #0048ae;
   position: sticky;
   top: 0;
 }
@@ -29,7 +29,7 @@ header ul {
 
 a {
   text-decoration: none;
-  color: #e99c64;
+  color: #f9b233;
 }
 
 #lukmenu_knap {
@@ -48,19 +48,20 @@ a {
   z-index: 1;
   top: 0px;
   left: 0;
-  background-color: #e2ceb5;
+  background-color: #0048ae;
   overflow-x: hidden;
-  padding-top: 120px;
+  padding-top: 160px;
   transition: 0.3s;
 }
 
 .sidepanel a {
   margin: 0px 0px 50px 30px;
   text-decoration: none;
-  color: #000000;
+  color: #f9b233;
+  letter-spacing: 1.5px;
   display: block;
   transition: 0.3s;
-  font-family: "Cinzel", serif;
+  font-family: "Druk Wide";
   text-transform: uppercase;
   font-weight: 800;
   font-size: 20px;
@@ -69,7 +70,7 @@ a {
 }
 
 .sidepanel a:hover {
-  color: #dd6300;
+  color: #e637a7;
 }
 
 .sidepanel .closebtn {
