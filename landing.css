@@ -80,6 +80,59 @@ a {
   display: none;
 }
 
+/* header/nav menu 600 */
+@media (min-width: 600px) {
+  #mySidepanel {
+    display: none;
+  }
+
+  .openbtn {
+    display: none;
+  }
+
+  #nav_desktop {
+    display: flex;
+    place-content: center;
+    gap: 40px;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 5px;
+    gap: 40px;
+    overflow-x: auto;
+    flex-flow: wrap;
+  }
+
+  .grid_menu {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+
+  #nav_desktop a {
+    color: #000000;
+    font-family: "Vujahday Script", cursive;
+    text-transform: uppercase;
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  header {
+    background: #e2ceb5;
+    position: sticky;
+    top: 0;
+    padding-bottom: 20px;
+  }
+
+  #nav_desktop a:hover {
+    color: #dd6300;
+  }
+}
+
 /* fonts */
 
 @font-face {
