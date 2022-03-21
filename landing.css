@@ -1,0 +1,81 @@
+/* header/nav */
+
+.grid_menu {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+
+header {
+  background: #e2ceb5;
+  position: sticky;
+  top: 0;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e99c64;
+}
+
+#lukmenu_knap {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+#åbenmenu_knap {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+.sidepanel {
+  height: 925px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0;
+  background-color: #e2ceb5;
+  overflow-x: hidden;
+  padding-top: 120px;
+  transition: 0.3s;
+}
+
+.sidepanel a {
+  margin: 0px 0px 50px 30px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+.sidepanel a:hover {
+  color: #dd6300;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 30px;
+}
+
+.openbtn {
+  cursor: pointer;
+  place-self: start start;
+  margin: 30px 30px 30px 30px;
+  border: none;
+  background: transparent;
+}
+
+#nav_desktop {
+  display: none;
+}
