@@ -31,6 +31,7 @@ h1 {
   font-family: "Druk Wide";
   color: #e637a7;
   text-decoration: underline;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -38,6 +39,19 @@ h2 {
   color: #f9b233;
   font-size: 2rem;
   text-decoration: underline;
+}
+
+/* logo */
+
+nav div {
+  padding-top: 1rem;
+  grid-column: 2/2;
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* lykkehjul */
@@ -58,17 +72,21 @@ h2 {
 
 .drej {
   animation-name: drej_kf;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+  animation-duration: 5s;
+  animation-timing-function: initial;
 }
 
 @keyframes drej_kf {
   0% {
-    transform: rotate(0deg);
+    -moz-transform: rotate(320deg);
+    -webkit-transform: rotate(320deg);
+    -o-transform: rotate(320deg);
+    -ms-transform: rotate(320deg);
   }
   100% {
-    transform: rotate(1665deg);
+    -moz-transform: rotate(680deg);
+    -webkit-transform: rotate(680deg);
+    -o-transform: rotate(680deg);
+    -ms-transform: rotate(680deg);
   }
 }
