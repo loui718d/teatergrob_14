@@ -87,6 +87,27 @@ main{
   }
 }
 
+#insta{
+  display: flex;
+  gap: 20px;
+}
+
+#insta img{
+  width: clamp(10rem, 50%, 40rem);
+}
+
+#feed{
+  display: flex;
+  gap: 20px;
+}
+#feed img{
+  width: clamp(5rem, 50%, 40rem);
+}
+
+section{
+  padding-block: clamp(2rem, 8%, 6rem);
+}
+
  /* ------- FOOTER ------- */
 footer{
   background-color: #f9b233;
