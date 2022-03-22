@@ -78,6 +78,16 @@ main{
   margin: auto;
 }
 
+@media (max-width: 1155px) {
+  #videoer{
+    display: block;
+  }
+  main{
+    margin: 15px;
+  }
+}
+
+ /* ------- FOOTER ------- */
 footer{
   background-color: #f9b233;
   padding: 2rem 1.5rem 2rem 1.5rem;
@@ -128,15 +138,6 @@ iframe{
 footer img{
   aspect-ratio: 1/1;
   width: 40px;
-}
-
-@media (max-width: 1155px) {
-  #videoer{
-    display: block;
-  }
-  main{
-    margin: 15px;
-  }
 }
 
 @media (min-width: 850px) {
