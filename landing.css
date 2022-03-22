@@ -103,7 +103,7 @@ a {
 
 #first_section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 150px 1fr 1fr;
 }
 
@@ -126,7 +126,7 @@ a {
   text-transform: uppercase;
   font-size: 80px;
   letter-spacing: 20px;
-  place-self: center;
+  place-self: end;
 }
 
 #OB {
@@ -139,6 +139,18 @@ a {
   letter-spacing: 20px;
   justify-self: start;
   /* margin-bottom: 1rem; */
+}
+
+#GROB {
+  display: none;
+}
+
+#pink {
+  display: none;
+}
+
+#blaa {
+  display: none;
 }
 
 #teater {
@@ -239,45 +251,70 @@ a {
 }
 
 h3 {
-  color: #f9b233;
+  color: #0048ae;
   font-family: "Druk Bold";
   text-transform: uppercase;
   font-size: 2.4rem;
   letter-spacing: 2px;
+  margin-bottom: 1rem;
 }
 
 h4 {
   color: #e637a7;
-  font-family: "Druk Bold";
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
+
+  font-weight: 500;
+  font-family: "Druk Text";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 #kampagne p {
   color: #f9b233;
-  font-family: "Druk Text";
+  font-family: "paralucent", sans-serif;
   font-size: 0.8rem;
   margin-right: 2.5rem;
+  font-weight: 500;
 }
 
 #kampagne button {
-  border-color: #f9b233;
-  background-color: transparent;
-  color: #f9b233;
-  margin-top: 0.5rem;
+  border-color: #e637a7;
+  background-color: #e637a7;
+  color: #000000;
+  margin-top: 1rem;
   font-family: "Druk Wide";
   font-size: 0.5rem;
-  border-radius: 5px;
   padding: 5px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border-style: solid;
+}
+#kampagne a {
+  color: black;
+}
+
+#kampagne button:hover {
+  border-color: #f9b233;
+  background-color: #f9b233;
 }
 
 /* hjul */
 
 #hjul {
   max-width: 700px;
+  grid-area: 1/1;
+}
+
+.hjul {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#pil {
+  width: 30px;
+  grid-area: 1/1;
+  justify-self: center;
+  z-index: 1;
 }
 
 .drej {
@@ -302,56 +339,55 @@ h4 {
 }
 
 /* header/nav menu 600 */
-@media (min-width: 600px) {
-  #mySidepanel {
+
+/* #mySidepanel {
     display: none;
   }
 
   .openbtn {
     display: none;
-  }
+  } */
 
-  #nav_desktop {
-    display: flex;
-    place-content: center;
-    gap: 40px;
-  }
+#nav_desktop {
+  display: flex;
+  place-content: center;
+  gap: 40px;
+}
 
-  header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding-bottom: 5px;
-    gap: 40px;
-    overflow-x: auto;
-    flex-flow: wrap;
-  }
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 5px;
+  gap: 40px;
+  overflow-x: auto;
+  flex-flow: wrap;
+}
 
-  .grid_menu {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
-  }
+.grid_menu {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
 
-  #nav_desktop a {
-    color: #000000;
-    font-family: "Vujahday Script", cursive;
-    text-transform: uppercase;
-    font-size: 16px;
-    gap: 20px;
-  }
+#nav_desktop a {
+  color: #000000;
+  font-family: "Vujahday Script", cursive;
+  text-transform: uppercase;
+  font-size: 16px;
+  gap: 20px;
+}
 
-  header {
-    background: #000000;
-    position: sticky;
-    top: 0;
-    padding-bottom: 20px;
-  }
+header {
+  background: transparent;
+  position: sticky;
+  top: 0;
+  padding-bottom: 20px;
+}
 
-  #nav_desktop a:hover {
-    color: #000000;
-  }
+#nav_desktop a:hover {
+  color: #000000;
 }
 
 /* fonts */
@@ -369,4 +405,95 @@ h4 {
 @font-face {
   font-family: "Druk Wide";
   src: url(fonte/Druk\ Wide\ Bold.woff2);
+}
+
+@media (min-width: 700px) {
+  #first_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    padding-bottom: 6rem;
+  }
+
+  #GR {
+    display: none;
+  }
+
+  #OB {
+    display: none;
+  }
+  #GROB {
+    display: block;
+    grid-column: 2 / span 3;
+    grid-row: 1/1;
+    color: #f9b233;
+    font-family: "Druk Wide";
+    text-transform: uppercase;
+    font-size: 85px;
+    letter-spacing: 20px;
+    justify-self: start;
+  }
+  #dtf {
+    grid-column: 1/2;
+    grid-row: 1 / span 4;
+    color: #e637a7;
+    font-family: "Druk Bold";
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    place-self: center;
+    writing-mode: sideways-lr;
+    place-self: start start;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #f9b233;
+    margin-bottom: 2rem;
+  }
+  #billet {
+    grid-column: 3/3;
+    grid-row: 4/4;
+    place-self: center;
+    margin-top: 1.5rem;
+  }
+
+  #teater {
+    grid-column: 2 / span 4;
+    grid-row: 2/3;
+    color: #e637a7;
+    font-family: "Druk Bold";
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 20px;
+    place-self: end end;
+  }
+}
+
+@media (min-width: 900px) {
+  .wrap {
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+
+  #first_section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    padding-bottom: 6rem;
+  }
+
+  #pink {
+    display: block;
+    grid-column: 1/1;
+    grid-row: 1 / span 3;
+    background-size: cover;
+  }
+
+  #blaa {
+    display: block;
+    background-size: cover;
+    grid-column: 1/1;
+    grid-row: 1 / span 3;
+    z-index: 0.5;
+  }
 }
