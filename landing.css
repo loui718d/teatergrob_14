@@ -90,7 +90,7 @@ a {
 .openbtn {
   cursor: pointer;
   place-self: start start;
-  margin: 30px 30px 30px 20px;
+  margin: 30px 30px 30px 10px;
   border: none;
   background: transparent;
 }
@@ -182,8 +182,21 @@ a {
   width: 50%;
   height: 50%;
   padding: 30px;
+  aspect-ratio: 161.674/73;
   background-color: transparent;
   background-size: cover;
+  border-style: none;
+}
+
+#billet button:hover {
+  background-image: url(assets/købbilletknaphover.svg);
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  aspect-ratio: 162.011/73;
+  background-color: transparent;
+  background-size: cover;
+  border-style: none;
 }
 #billet p {
   color: #f9b233;
