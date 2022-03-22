@@ -118,6 +118,11 @@ a {
   background-repeat: no-repeat;
 }
 
+.wrap2 {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
 #GR {
   grid-column: 2/3;
   grid-row: 1/1;
@@ -142,6 +147,10 @@ a {
 }
 
 #GROB {
+  display: none;
+}
+
+#grobteater {
   display: none;
 }
 
@@ -203,7 +212,6 @@ a {
 
 #billet button:hover {
   background-image: url(assets/købbilletknaphover.svg);
-
   padding: 10px;
   aspect-ratio: 162.011/73;
   background-color: transparent;
@@ -471,29 +479,84 @@ header {
 
 @media (min-width: 900px) {
   .wrap {
-    background-image: none;
+    background-image: url(assets/pink.svg);
     background-repeat: no-repeat;
+    height: 800px;
+  }
+
+  .wrap2 {
+    background-image: url(assets/blaa.svg);
+    background-repeat: no-repeat;
+    height: 800px;
   }
 
   #first_section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
     padding-bottom: 6rem;
   }
 
-  #pink {
+  #grobteater {
     display: block;
-    grid-column: 1/1;
-    grid-row: 1 / span 3;
-    background-size: cover;
+    grid-column: 1 / span 4;
+    grid-row: 1/1;
+    color: #f9b233;
+    font-family: "Druk Wide";
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    place-self: start end;
   }
 
-  #blaa {
-    display: block;
-    background-size: cover;
-    grid-column: 1/1;
-    grid-row: 1 / span 3;
-    z-index: 0.5;
+  #teater {
+    display: none;
+  }
+
+  #GROB {
+    display: none;
+  }
+
+  #billet {
+    grid-column: 3/3;
+    grid-row: 3/3;
+    place-self: center;
+    margin-top: 1.5rem;
+  }
+
+  #billet p {
+    color: #f9b233;
+    font-family: "Druk Text";
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  #billet h2 {
+    color: #f9b233;
+    font-family: "Druk Bold";
+    text-transform: uppercase;
+    font-size: 4.2rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: #e637a7;
+  }
+
+  #dtf {
+    grid-column: 1/2;
+    grid-row: 1 / span 4;
+    color: #e637a7;
+    font-family: "Druk Bold";
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    place-self: center;
+    writing-mode: sideways-lr;
+    place-self: start start;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #f9b233;
+    margin-bottom: 2rem;
   }
 }
