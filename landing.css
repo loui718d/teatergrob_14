@@ -122,8 +122,7 @@ a {
 #blur {
   width: 100vw;
   height: 100vh;
-  background-color: hsla(215, 100%, 34%, 0.685);
-
+  background-color: hsla(215, 100%, 34%, 0.596);
   position: fixed;
   z-index: 0.5;
   display: none;
