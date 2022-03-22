@@ -58,6 +58,9 @@ a {
   overflow-x: hidden;
   padding-top: 160px;
   transition: 0.3s;
+  top: 0;
+  left: 0;
+  width: 0;
 }
 
 .sidepanel a {
