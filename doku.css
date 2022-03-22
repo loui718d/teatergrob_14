@@ -65,28 +65,3 @@ nav {
   background-image: url(assets/hjul.svg);
   background-size: cover;
 } */
-
-#hjul {
-  max-width: 700px;
-}
-
-.drej {
-  animation-name: drej_kf;
-  animation-duration: 5s;
-  animation-timing-function: initial;
-}
-
-@keyframes drej_kf {
-  0% {
-    -moz-transform: rotate(320deg);
-    -webkit-transform: rotate(320deg);
-    -o-transform: rotate(320deg);
-    -ms-transform: rotate(320deg);
-  }
-  100% {
-    -moz-transform: rotate(680deg);
-    -webkit-transform: rotate(680deg);
-    -o-transform: rotate(680deg);
-    -ms-transform: rotate(680deg);
-  }
-}

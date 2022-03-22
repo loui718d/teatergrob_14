@@ -110,6 +110,11 @@ a {
   overflow: hidden;
 }
 
+.wrap {
+  background-image: url(assets/blaamandmobile.svg);
+  background-repeat: no-repeat;
+}
+
 #GR {
   grid-column: 2/3;
   grid-row: 1/1;
@@ -189,6 +194,63 @@ a {
   padding: 5px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/* kampagne beskrivelse */
+
+#kampagne {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  color: #f9b233;
+  font-family: "Druk Bold";
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+}
+
+h4 {
+  color: #e637a7;
+  font-family: "Druk Bold";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+#kampagne p {
+  color: #f9b233;
+  font-family: "Druk Text";
+  font-size: 0.8rem;
+  margin-right: 2.5rem;
+}
+
+/* hjul */
+
+#hjul {
+  max-width: 700px;
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 5s;
+  animation-timing-function: initial;
+}
+
+@keyframes drej_kf {
+  0% {
+    -moz-transform: rotate(320deg);
+    -webkit-transform: rotate(320deg);
+    -o-transform: rotate(320deg);
+    -ms-transform: rotate(320deg);
+  }
+  100% {
+    -moz-transform: rotate(680deg);
+    -webkit-transform: rotate(680deg);
+    -o-transform: rotate(680deg);
+    -ms-transform: rotate(680deg);
+  }
 }
 
 /* header/nav menu 600 */
