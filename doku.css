@@ -64,64 +64,64 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#videoer div{
+#videoer div {
   margin-top: 1rem;
-margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
-#videoer{
+#videoer {
   display: flex;
   gap: 3rem;
 }
 
-main{
+main {
   max-width: 1200px;
   margin: auto;
 }
 
 @media (max-width: 1155px) {
-  #videoer{
+  #videoer {
     display: block;
   }
-  main{
+  main {
     margin: 15px;
   }
 }
 
-#insta{
+#insta {
   display: flex;
   gap: 20px;
 }
 
-#insta img{
+#insta img {
   width: clamp(10rem, 50%, 40rem);
 }
 
-#feed{
+#feed {
   display: flex;
   gap: 20px;
 }
-#feed img{
+#feed img {
   width: clamp(5rem, 50%, 40rem);
 }
 
-section{
-  padding-block: clamp(2rem, 8%, 6rem);
+section {
+  padding-block: clamp(1rem, 4%, 3rem);
 }
 
-#facebook{
+#facebook {
   display: flex;
   width: clamp(5rem, 50%, 40rem);
   gap: 20px;
 }
- /* ------- FOOTER ------- */
-footer{
+/* ------- FOOTER ------- */
+footer {
   background-color: #f9b233;
   padding: 2rem 1.5rem 2rem 1.5rem;
   display: grid;
   gap: 2rem;
 }
-#submit{
+#submit {
   background-color: #e637a7;
   border: solid 2px black;
   padding: 0 1rem 0 1rem;
@@ -131,11 +131,11 @@ footer{
   font-size: 1rem;
   letter-spacing: 0.5px;
 }
-#submit:hover{
+#submit:hover {
   filter: grayscale(20%);
   cursor: pointer;
 }
-#email{
+#email {
   border: solid 2px black;
   background-color: transparent;
   font-family: "Druk Bold";
@@ -143,35 +143,32 @@ footer{
   font-size: 1rem;
   letter-spacing: 0.5px;
 }
-label{
+label {
   font-family: "Druk Bold";
-  color:  black;
+  color: black;
   font-size: 1.2rem;
   letter-spacing: 0.5px;
 }
 
-address{
+address {
   font-family: "Druk Bold";
   font-style: normal;
   font-size: 1.2rem;
   letter-spacing: 0.5px;
 }
 
-iframe{
+iframe {
   max-width: 100%;
-  
 }
 
-footer img{
+footer img {
   aspect-ratio: 1/1;
   width: 40px;
 }
 
 @media (min-width: 850px) {
-  footer{
+  footer {
     display: flex;
     justify-content: space-around;
   }
 }
-
-
