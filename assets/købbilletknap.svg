@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="165" viewBox="0 0 165 165">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.674" height="73" viewBox="0 0 161.674 73">
   <defs>
     <clipPath id="clip-path">
       <rect id="Rectangle_1606" data-name="Rectangle 1606" width="161.674" height="73" fill="#f9b233"/>
     </clipPath>
-    <clipPath id="clip-Artboard_3">
-      <rect width="165" height="165"/>
+    <clipPath id="clip-Artboard">
+      <rect width="161.674" height="73"/>
     </clipPath>
   </defs>
-  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
-    <g id="Group_48" data-name="Group 48" transform="translate(2 46)">
+  <g id="Artboard" clip-path="url(#clip-Artboard)">
+    <g id="Group_48" data-name="Group 48">
       <path id="Path_38045" data-name="Path 38045" d="M36.08,36.4V49H30.76V19.241h5.32V30.68l3.48-11.439H44.8L40.6,32.76,45.24,49h-5.6Z" fill="#f9b233"/>
       <g id="Group_47" data-name="Group 47">
         <g id="Group_46" data-name="Group 46" clip-path="url(#clip-path)">
