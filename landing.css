@@ -104,7 +104,7 @@ a {
 #first_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 150px 1fr 1fr;
 }
 
 .blaamand {
@@ -138,7 +138,7 @@ a {
   font-size: 85px;
   letter-spacing: 20px;
   justify-self: start;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 #teater {
@@ -149,7 +149,7 @@ a {
   text-transform: uppercase;
   font-size: 80px;
   letter-spacing: 20px;
-  place-self: center;
+  place-self: start center;
 }
 
 #dtf {
@@ -163,16 +163,27 @@ a {
   place-self: center;
   writing-mode: sideways-lr;
   place-self: start start;
-  margin-top: 1.1rem;
+  margin-top: 0.8rem;
   text-decoration: underline;
   text-decoration-color: #f9b233;
+  margin-bottom: 2rem;
 }
 
 #billet {
   grid-column: 2/2;
-  grid-row: 5/5;
+  grid-row: 4/4;
 
   place-self: center;
+  margin-top: 1.5rem;
+}
+
+#billet button {
+  background-image: url(assets/købbilletknap.svg);
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  background-color: transparent;
+  background-size: cover;
 }
 #billet p {
   color: #f9b233;
@@ -233,6 +244,19 @@ h4 {
   font-family: "Druk Text";
   font-size: 0.8rem;
   margin-right: 2.5rem;
+}
+
+#kampagne button {
+  border-color: #f9b233;
+  background-color: transparent;
+  color: #f9b233;
+  margin-top: 0.5rem;
+  font-family: "Druk Wide";
+  font-size: 0.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* hjul */
